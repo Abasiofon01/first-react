@@ -18,7 +18,12 @@ export default function Header() {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#services">
+                Services{" "}
+                <span>
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </span>
+              </a>
             </li>
             <li>
               <a href="#gallery">Gallery</a>
